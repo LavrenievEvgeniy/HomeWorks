@@ -9,15 +9,16 @@ public class Lesson1 {
     }
 
     private static void compareNumbers() {
-        int a = 2;
+        int a = 7;
         int b = 6;
 
         if (a >= b) {
-            System.out.println(a >= b);
+            System.out.println("a >= b");
         } else {
             System.out.println("a < b");
         }
     }
+
 
     private static void checkSumSign() {
         int a = 20;
