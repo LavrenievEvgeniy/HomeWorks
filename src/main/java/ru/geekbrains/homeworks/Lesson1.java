@@ -33,7 +33,7 @@ public class Lesson1 {
         System.out.println("Apple");
         System.out.println("Banana");
         System.out.println("Orange");
-    }
+     }
 
     private static void printColor() {
         int value = 152;
