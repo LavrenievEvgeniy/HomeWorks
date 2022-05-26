@@ -15,12 +15,12 @@ public class Lesson3 {
         System.out.println();
         fillDiagonal();
         System.out.println();
-        task5(5, 12);
-        System.out.println(Arrays.toString(task5_2(3, 1)));
+        returnArray(5, 12);
+        System.out.println(Arrays.toString(returnArray_2(3, 1)));
         System.out.println();
-        task6();
+        findMinAndMax();
         System.out.println();
-        task7();
+        booleanSum();
         System.out.println();
     }
 
@@ -70,7 +70,7 @@ public class Lesson3 {
 
     }
 
-    public static int[] task5(int len, int initialValue) {
+    public static int[] returnArray (int len, int initialValue) {
         int[] array = new int[len];
         for (int i = 0; i < array.length; i++) {
             array[i] = initialValue;
@@ -79,14 +79,14 @@ public class Lesson3 {
         return array;
     }
 
-    public static int[] task5_2(int len, int initialValue) {
+    public static int[] returnArray_2 (int len, int initialValue) {
         int[] array = new int[len];
         Arrays.fill(array, initialValue);
 
         return array;
     }
 
-    public static void task6() {
+    public static void findMinAndMax() {
         int[] array = {1, 2, 3, 4, 20, 6, -5, 8, 9};
         int maxValue = findMax(array);
         System.out.println("Max value: " + maxValue);
@@ -114,7 +114,7 @@ public class Lesson3 {
         return result;
     }
 
-    public static void task7() {
+    public static void booleanSum() {
         int[] array = {2, 1, 1, 2};
 
         System.out.println(findSum(array));
