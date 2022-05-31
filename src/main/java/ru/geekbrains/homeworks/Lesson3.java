@@ -21,7 +21,6 @@ public class Lesson3 {
         findMinAndMax();
         System.out.println();
         booleanSum();
-        System.out.println();
     }
 
     public static void invertArray() {
@@ -70,7 +69,7 @@ public class Lesson3 {
 
     }
 
-    public static int[] returnArray (int len, int initialValue) {
+    public static int[] returnArray(int len, int initialValue) {
         int[] array = new int[len];
         for (int i = 0; i < array.length; i++) {
             array[i] = initialValue;
@@ -79,7 +78,7 @@ public class Lesson3 {
         return array;
     }
 
-    public static int[] returnArray_2 (int len, int initialValue) {
+    public static int[] returnArray_2(int len, int initialValue) {
         int[] array = new int[len];
         Arrays.fill(array, initialValue);
 
@@ -136,5 +135,4 @@ public class Lesson3 {
         }
         return false;
     }
-
 }
